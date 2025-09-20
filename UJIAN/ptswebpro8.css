@@ -1,0 +1,106 @@
+/* Warna dasar luxury: putih, krem, hijau tua */
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: #fdfcf7; /* putih krem */
+    margin: 0;
+    padding: 0;
+    color: #2c3e2f; /* hijau tua gelap */
+}
+
+header {
+    background: #1b4332; /* hijau tua luxury */
+    color: #fdfcf7; /* putih krem */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+header img {
+    width: 80px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fdfcf7;
+    background: #2d6a4f; /* hijau medium */
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin: 10px 5px;
+    display: inline-block;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1b4332; /* hijau tua lebih gelap */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background: #fffef9; /* putih agak krem */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #1b4332; /* hijau tua */
+    color: #fdfcf7;
+    font-size: 15px;
+}
+
+tr:nth-child(even) {
+    background: #f6f5f0; /* krem lembut */
+}
+
+tr:hover {
+    background: #e8f5e9; /* hijau muda lembut */
+}
+
+.aksi a {
+    margin: 0 5px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    color: #fdfcf7;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.edit {
+    background: #f4a261; /* krem oranye elegan */
+}
+
+.edit:hover {
+    background: #e76f51;
+}
+
+.hapus {
+    background: #c1121f; /* merah gelap luxury */
+}
+
+.hapus:hover {
+    background: #780000;
+}
